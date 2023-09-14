@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+body, .button-class{
+    font-family: 'Philosopher', sans-serif;
+}
+
+body{
+    margin-top: 20px;
+}
+
+#post-container {
+    background-color: #ffe4e4;
+    border: solid 1px #ffb1b1;
+    padding: 5px 10px;
+    margin: 15px 0px;
+}
+
+#comments-container{
+    background-color: #fff5f5;
+    border: solid 1px #ffb1b1;
+    padding: 5px 10px;
+}

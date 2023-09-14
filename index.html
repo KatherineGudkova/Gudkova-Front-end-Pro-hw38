@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    <label for="post-id">Введіть ідентифікатор посту (від 1 до 100):</label>
+    <input type="number" id="post-id" min="1" max="100">
+    <button class="button-class" onclick="searchPost()">ПОШУК</button>
+    <div id="post-container"></div>
+    <div id="comments-container"></div>
+
     <script src="/js/script.js"></script>
 </body>
 
